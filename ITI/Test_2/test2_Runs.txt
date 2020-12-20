@@ -1,0 +1,45 @@
+*****************************
+RUN 1
+*****************************
+
+
+Enter A or B to choose one of the following two options:
+
+A: Would work with numbers?
+B: Would like to replace a pattern with stars?
+
+Enter A or B (lower or upper case accepted):    ah
+Invalide input
+Enter A or B (lower or upper case accepted): AB
+Invalide input
+Enter A or B (lower or upper case accepted): A B
+Invalide input
+Enter A or B (lower or upper case accepted):     ab
+Invalide input
+Enter A or B (lower or upper case accepted):      1345 43
+Invalide input
+Enter A or B (lower or upper case accepted):                 A
+Enter a sequence of integers separated by either one space or a comma then one space.
+3, 5 1, 0
+You entered: 3, 5 1, 0
+The given list of ints is [3, 5, 1, 0]
+The list produced after prescribed work is [8, 6, 0]
+
+*****************************
+RUN 2
+*****************************
+
+Enter A or B to choose one of the following two options:
+
+A: Would work with numbers?
+B: Would like to replace a pattern with stars?
+
+Enter A or B (lower or upper case accepted): A A
+Invalide input
+Enter A or B (lower or upper case accepted): b     b
+Invalide input
+Enter A or B (lower or upper case accepted): b
+Enter a string: Otorhinolaryngology
+Enter a non-empty pattern string: o
+Here is a result of replacing pattern o in otorhinolaryngology with some stars:
+*t**rhin***laryng****l*****gy

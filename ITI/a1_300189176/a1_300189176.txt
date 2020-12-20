@@ -1,0 +1,130 @@
+>>> # testing Question 1
+>>>
+>>>
+>>> poem_generator()
+Enter your name: Amin
+Enter your city of birth: Tehran
+here was a small boy from Tehran
+Who was buried in snow to his neck
+Amin replied that the weather is cold!
+But we don’t call this cold in Tehran
+>>>
+>>> # testing Question 2
+>>> 
+>>> impl2loz(7.5)
+(7, 8.0)
+>>>
+>>> print(impl2loz(9.25))
+(9, 4.0)
+>>>
+>>> # testing Question 3
+>>>
+>>> pale(1128)
+False
+>>> pale(3443)
+True
+>>> pale(3351)
+False
+>>> pale(3333)
+False
+>>> pale(4331)
+False
+>>> pale(3423)
+True
+>>> pale(4533)
+False
+>>>
+>>> # testing Question 4
+>>>
+>>> bibformat("George R. R. Martin", "A Game of Thrones", "New York City",
+"Bantam Spectra", 1996)
+'George R. R. Martin (1996). A Game of Thrones. New York City: Bantam
+Spectra.'
+>>>
+>>>
+>>> # testing Question 5
+>>>
+>>> bibformat_display()
+Enter the title of a book: Guns, Germs, and Steel: The Fates of Human
+Societies
+Enter the name of the author? Jared Diamond
+What year was the book published? 1997
+Enter the name of the publisher: W. W. Norton
+In what city are the headquarters of the publisher? New York City
+Jared Diamond (1997). Guns, Germs, and Steel: The Fates of Human Societies.
+New York City: W. W. Norton.
+>>>
+>>>
+>>> # testing Question 6
+>>>
+>>> compound(80,40,31)
+False
+>>> compound(80,41,31)
+True
+>>> compound(8,1,31)
+False
+>>> compound(80,1,31)
+True
+>>> compound(80,1001,-44)
+False 
+>>> compound(-2,1001,-43)
+True
+>>>
+>>>
+>>> # testing Question 7
+>>>
+>>> funct(11)
+The solution is 0.0
+>>> funct(12)
+The solution is 0.6562595203678139
+>>> funct(10300)
+The solution is 2.395927506817742
+>>> funct(1000000000)
+The solution is 3.588326771135425
+>>>
+>>> # testing Question 8
+>>>
+>>> gol(5.4)
+3
+>>> gol(4)
+2
+>>> gol(1000)
+500            # with respect to the question, this answer is correct and the answer in test part of the assignment is wrong.
+>>> gol(4200231)
+2100115        # with respect to the question, this answer is correct and the answer in test part of the assignment is wrong.
+>>>
+>>> # testing Question 9
+>>>
+>>> print(cad_cashier(10.58,11))
+0.4
+>>> print(cad_cashier(98.87,100))
+1.15
+>>> print(cad_cashier(10.58,15))
+4.4
+>>> print(cad_cashier(10.55,15))
+4.45
+>>> print(cad_cashier(10.54,15))
+4.45
+>>> print(cad_cashier(10.52,15))
+4.5
+>>> print(cad_cashier(10.50,15))
+4.5
+>>>
+>>> # testing Question 10
+>>>
+>>> min_CAD_coins(10.58,11)
+(0, 0, 1, 1, 1)
+>>> min_CAD_coins(98.87,100)
+(0, 1, 0, 1, 1)
+>>> min_CAD_coins(10.58,15)
+(2, 0, 1, 1, 1)
+>>> min_CAD_coins(10.55,15)
+(2, 0, 1, 2, 0)
+>>> min_CAD_coins(10.54,15)
+(2, 0, 1, 2, 0) 
+>>> min_CAD_coins(10.52,15)
+(2, 0, 2, 0, 0)
+>>> min_CAD_coins(10.50,15)
+(2, 0, 2, 0, 0)
+>>> min_CAD_coins(3, 20)
+(8, 1, 0, 0, 0) 
